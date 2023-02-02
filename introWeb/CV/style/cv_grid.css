@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 614px;
+    max-height: 888px;
+    /* width: 613px;
+    height: 887px; */
+}
+
+/* Parte superior (imagen & Nombre) de CV */
+.encabezado {
+    display: grid;
+    grid-template-columns: 1.3fr 2fr;    
+    
+}
+
+.encabezado>img {
+    width: 100%;
+    object-fit: fill;
+}
+
+.encabezado>header {
+    background-color: #6F8FAF;
+    /* background-color: #5499C7; */
+    color: whitesmoke;
+    padding: 25px 5px 5px 35px;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+.encabezado>header>h1 {
+    padding-bottom: 19px;    
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.encabezado>header>p {
+    font-size: .7rem;
+}
+
+/* Parte inferior de CV */
+
+.inferior {
+    display: grid;
+    grid-template-columns: 1.3fr 2fr;
+    grid-template-rows: 1fr;
+    height: 888px;
+}
+
+/* Parte inferior izquierda de CV*/
+aside {
+    margin: 0;
+    background-color: #D6EAF8;
+    padding: 25px 20px 20px 30px;  
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.linea {
+    border: 1px solid lightgrey;
+    
+}
+
+aside>h3 {
+    font-size: 1rem;
+    padding-bottom: 3px;
+    padding-top: 20px;
+}
+
+.pinfo {
+    padding-top: 10px;
+}
+
+.pinfo>h4 {    
+    font-size: .8rem;
+}
+
+.pinfo>p {
+    padding-top: 5px;
+    font-size: .8rem;
+}
+.skills {
+    font-size: .8rem;
+    padding-left: 20px;
+}
+.skills>li {
+    padding-top: 5px;
+}
+
+.skills>li>div {
+    font-size: .7rem;
+}
+
+/* Parte inferior derecha de CV*/
+article {
+    margin: 0;    
+    /* padding: 40px 20px 20px 40px;     */
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.bullet_points {
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 30px 20px 10px 30px;
+}
+
+/* .bullet_points>h3 {
+    background-color: #D6EAF8;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    text-align: right;
+    font-weight: 600;
+} */
+
+/* Work Experience */
+
+.work_hist {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;    
+    font-size: 1rem;
+    padding-top: 20px;
+}
+
+.work_date {
+    font-size: .8rem;
+    padding-left: 30px;
+    padding-right: 15px;
+}
+
+.work_date>p {
+    width: 56px;
+}
+
+.work_exp>h2 {
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+.work_exp>p {
+    font-size: .8rem;
+    padding-top: 4px;
+}
+
+/* Education */
+
+.education {
+    padding-left: 30px;
+}

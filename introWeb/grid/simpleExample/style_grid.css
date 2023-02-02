@@ -1,0 +1,32 @@
+.contenedor {
+    display: grid;
+    border: 5px solid palevioletred;
+    background-color: antiquewhite;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 150px 250px; */
+}
+
+.item {
+    border: 5px solid blue;
+    font-size: 4rem;
+}
+
+.item-1 {
+    background-color: aqua;
+}
+
+.item-2 {
+    background-color: burlywood;
+}
+
+.item-3 {
+    background-color: lightcoral;
+}
+
+.item-4 {
+    background-color: lightgray;
+}
+
+.item-5 {
+    background-color: lightpink;
+}
